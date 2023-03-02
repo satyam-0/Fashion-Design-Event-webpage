@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Minimalist\ Fashion\ Store\ Website\ Desktop\ Prototype.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+main {
+    /* overflow: scroll; */
+    /* height: 100vh - 42px; */
+    /* overflow: hidden; */
+    z-index: 0;
+}
+
+header {
+    /* background-color: #201f1f; */
+    color: #fff;
+    height: 43px;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+    overflow: visible;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin: 5px 45px;
+}
+
+
+.nav-list {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 7%;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.nav-list ul {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav-list ul li a {
+    color: #987053;
+    display: inline-block;
+    align-content: space-between;
+    margin: 0px 50px;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+.nav-list li a:hover {
+    text-decoration: solid;
+    /* color: lightgrey; */
+    border-bottom: 1px solid #987053;
+}
+
+.web-name {
+    margin: 10px, 30px;
+    color: black;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.search-bar {
+    margin: auto;
+    display: flex;
+    margin-top: 12px;
+}
+
+.search-bar input {
+    border-radius: 0;
+    padding: 2px 4px 2px 3px;
+}
+
+
+.search-bar input {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    width: 300px;
+    background-color: #E4CAB5;
+}
+
+.search-bar i {
+    color: #e7aa79;
+    margin: auto;
+    position: relative;
+    left: 15px;
+    /* size: 40px; */
+}
+
+/* main-part-css  */
+
+
+.heading {
+    position: relative;
+    top: 18vh;
+    left: 20%;
+    font-weight: normal;
+    font-family: cursive;
+    font-weight: 200;
+    font-size: xx-large;
+
+}
+
+.card-group {
+    position: relative;
+    top: 22vh;
+}
+
+.card image {
+    width: 225px;
+    height: 345px
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
